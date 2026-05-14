@@ -1,0 +1,3 @@
+# CyberShell EDU uses only Python standard library for now.
+# External tools used by commands:
+# nmap, netcat/nc, whois, dig, traceroute, curl
