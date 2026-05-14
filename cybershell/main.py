@@ -29,10 +29,22 @@ Safety:
 """)
 
 def main():
-    print("Welcome to CyberShell EDU")
-    print("Educational and authorized testing only.")
-    print("Type 'help' to see commands.")
-
+    print(r"""
+       ______      __              _____ __         ____     __________  __  __
+      / ____/_  __/ /_  ___  _____/ ___// /_  ___  / / /    / ____/ __ \/ / / /
+     / /   / / / / __ \/ _ \/ ___/\__ \/ __ \/ _ \/ / /    / __/ / / / / / / 
+    / /___/ /_/ / /_/ /  __/ /   ___/ / / / /  __/ / /___ / /___/ /_/ / /_/ /  
+    \____/\__, /_.___/\___/_/   /____/_/ /_/\___/_/_____(_)_____/\____/\____/   
+         /____/                                                                  
+    
+            CyberShell EDU — Security Lab Assistant
+    """)
+    print("=" * 75)
+    print("  Educational cybersecurity toolkit for authorized security testing.")
+    print("  Run network diagnostics, DNS checks, Nmap scans, and header analysis.")
+    print("  Type 'help' to see commands. Type 'exit' to quit.")
+    print("=" * 75)
+    
     while True:
         try:
             user_input = input("cybershell> ").strip()
