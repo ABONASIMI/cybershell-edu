@@ -1,0 +1,7 @@
+help
+ping 127.0.0.1
+nmap-basic 127.0.0.1
+dig example.com
+curl-headers https://example.com
+nc-connect 127.0.0.1 80
+exit
