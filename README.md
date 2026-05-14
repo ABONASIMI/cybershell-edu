@@ -1,2 +1,3 @@
 # cybershell-edu
-An educational Python cybersecurity shell for authorized network diagnostics. Visibility: Public
+An educational Python cybersecurity shell for authorized network diagnostics.
+
